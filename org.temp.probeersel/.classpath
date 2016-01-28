@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin" path="src"/>
+	<classpathentry kind="src" output="bin_test" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="aQute.bnd.classpath.container"/>
+	<classpathentry kind="lib" path="/cnf/localrepo/biz.aQute.bnd/biz.aQute.bnd-2.2.0.jar" sourcepath="/cnf/localrepo/biz.aQute.bnd/biz.aQute.bnd-2.2.0.jar">
+		<attributes>
+			<attribute name="bsn" value="biz.aQute.bnd"/>
+			<attribute name="type" value="REPO"/>
+			<attribute name="project" value="org.apache.ace.agent.controller.itest"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/action/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/diff/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/progress/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/repository/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/resolve/hook/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/service/url/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/header/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/osgi/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/build/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/version/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/maven/support/*"/>
+			<accessrule kind="accessible" pattern="org/osgi/service/bindex/*"/>
+			<accessrule kind="accessible" pattern="aQute/service/reporter/*"/>
+			<accessrule kind="accessible" pattern="aQute/bnd/osgi/resource/*"/>
+			<accessrule kind="accessible" pattern="org/osgi/service/repository/*"/>
+			<accessrule kind="accessible" pattern="org/osgi/resource/*"/>
+			<accessrule ignoreifbetter="true" kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="/cnf/localrepo/de.twentyeleven.skysail.org.json-osgi/de.twentyeleven.skysail.org.json-osgi-20080701.0.0.jar">
+		<attributes>
+			<attribute name="bsn" value="de.twentyeleven.skysail.org.json-osgi"/>
+			<attribute name="type" value="REPO"/>
+			<attribute name="project" value="org.temp.probeersel"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="org/json/*"/>
+			<accessrule ignoreifbetter="true" kind="discouraged" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

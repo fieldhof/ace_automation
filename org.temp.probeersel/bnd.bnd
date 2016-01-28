@@ -1,0 +1,8 @@
+-buildpath: \
+	osgi.core,\
+	osgi.cmpn,\
+	de.twentyeleven.skysail.org.json-osgi
+-dsannotations: *
+Bundle-Version: 0.0.0.${tstamp}
+Bundle-Activator: org.temp.probeersel.Activator
+Private-Package: org.temp.probeersel
